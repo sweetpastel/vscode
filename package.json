@@ -1,0 +1,42 @@
+{
+  "name": "sweetpastel",
+  "displayName": "SweetPastel",
+  "homepage": "https://github.com/SweetPastel/",
+  "publisher": "Deathemonic",
+  "description": "VSCode Themed with SweetPastel",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.13.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+		"pastel",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+  "galleryBanner": {
+		"color": "#FFDEDE",
+		"theme": "dark"
+	},
+  "contributes": {
+    "themes": [
+      {
+        "label": "SweetPastel",
+        "uiTheme": "vs-dark",
+        "path": "./sweet-pastel-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SweetPastel/VSCode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SweetPastel/VSCode/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png"
+}
